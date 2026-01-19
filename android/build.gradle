@@ -54,6 +54,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.tom-roush:pdfbox-android:2.0.27.0'
     // https://stackoverflow.com/a/78592862
-    runtimeOnly "com.github.Tgo1014:JP2ForAndroid:2cbc0f1dc3e71ac414aaa1fd65885c488dcfe256"
+    runtimeOnly "com.github.Tgo1014:JP2ForAndroid:1.0.4"
 
 }
