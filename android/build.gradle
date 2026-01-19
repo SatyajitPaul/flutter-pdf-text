@@ -28,7 +28,7 @@ apply plugin: 'kotlin-android'
 
 android {
     namespace 'me.movenext.flutter_pdf_text'
-    compileSdkVersion 35
+    compileSdkVersion 36
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -44,7 +44,8 @@ android {
     }
     
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
+        targetSdkVersion 36
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 }
@@ -53,5 +54,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.tom-roush:pdfbox-android:2.0.27.0'
     // https://stackoverflow.com/a/78592862
-    runtimeOnly "com.github.Tgo1014:JP2ForAndroid:1.0.4"
+    runtimeOnly "com.github.Tgo1014:JP2ForAndroid:d30297f"
+
 }
